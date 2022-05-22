@@ -13,7 +13,7 @@ SPIDER_MODULES = ['tomtom_scraper.spiders']
 NEWSPIDER_MODULE = 'tomtom_scraper.spiders'
 
 FEEDS = {
-    "TomTomTraffic.csv": {
+    "scraped_data.csv": {
         "format": "csv",
         "overwrite": True
          }
