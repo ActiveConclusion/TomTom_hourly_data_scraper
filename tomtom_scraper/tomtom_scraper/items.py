@@ -2,8 +2,8 @@ from scrapy.item import Item, Field
 
 
 class TomtomTrafficItem(Item):
-    city = Field()
     country = Field()
+    city = Field()
     update_time_live = Field()
     traffic_index_live = Field()
     jams_delay = Field()
